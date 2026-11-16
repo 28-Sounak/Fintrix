@@ -58,4 +58,36 @@
 
     </build>
 
+    <build>
+
+        <sourceDirectory>src/main/java</sourceDirectory>
+
+        <sourceDirectory>src/test/java</sourceDirectory>
+    
+    </build>
+
+    <!--Apache POI: Excel file operations-->
+
+    <dependency>
+
+        <groupId>org.apache.poi</groupId>
+
+        <artifactId>poi-ooxml</artifactId>
+
+        <version>5.4.1</version>
+    
+    </dependency>
+
+    <!--BCrypt: Password hashing-->
+
+    <dependency>
+    
+        <groupId>org.mindrot</groupId>
+
+        <artifactId>jbcrypt</artifactId>
+
+        <version>0.4</version>
+
+    </dependency>
+
 </project>
