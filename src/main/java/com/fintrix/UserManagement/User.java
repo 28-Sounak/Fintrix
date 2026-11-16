@@ -12,13 +12,13 @@ public class User
 
     private String email;
 
-    private String role;
+    private Role role;
 
     private boolean isActive;
 
     private LocalDateTime createdAt;
 
-    public User(int userId, String fullName, String email, String passwordHash, String role)
+    public User(int userId, String fullName, String email, String passwordHash, Role role)
     {
         this.userId = userId;
 
@@ -42,7 +42,7 @@ public class User
         return userId;
     }
 
-    public int getFullName()
+    public String getFullName()
     {
         return fullName;
     }
@@ -57,7 +57,7 @@ public class User
         return passwordHash;
     }
 
-    public String getRole()
+    public Role getRole()
     {
         return role;
     }
@@ -79,7 +79,7 @@ public class User
         this.fullName = fullName;
     }
 
-    public void setRole(String role)
+    public void setRole(Role role)
     {
         this.role = role;
     }
