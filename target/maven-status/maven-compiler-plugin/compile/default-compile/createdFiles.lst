@@ -1,3 +1,5 @@
 com\fintrix\UserManagement\User.class
 com\fintrix\Test.class
 com\fintrix\UserManagement\Role.class
+com\fintrix\TestPasswordHasher.class
+com\fintrix\UserManagement\PasswordHasher.class

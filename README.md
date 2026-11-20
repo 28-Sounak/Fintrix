@@ -139,7 +139,7 @@ The system is being developed using Java and Maven, with an initial focus on use
 
 | Technology | Purpose |
 |---|---|
-| Java 17 | Core application development |
+| Java 25 | Core application development |
 | Apache Maven | Dependency and build management |
 | Apache POI 5.4.1 | Excel workbook operations |
 | jBCrypt 0.4 | Password hashing |
@@ -231,7 +231,7 @@ Access to application features will be controlled according to the permissions a
 
 Ensure that the following software is installed:
 
-- Java Development Kit (JDK) 17 or later.
+- Java Development Kit (JDK) 25 or later.
 - Apache Maven.
 - Git.
 - Visual Studio Code or another Java-compatible IDE.
