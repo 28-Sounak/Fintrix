@@ -12,11 +12,11 @@ public class TestPasswordHasher
 
         String hashedPassword = PasswordHasher.hashPassword(password);
 
-        System.out.println("Original password: " + password);
+        System.out.println("Original password is: " + password);
         
-        System.out.println("Hashed password: " + hashedPassword);
+        System.out.println("Hashed password is: " + hashedPassword);
 
-        //Vewrify password
+        //Verify password
 
         boolean correct = PasswordHasher.verifyPassword("Fintrix@123", hashedPassword);
 
